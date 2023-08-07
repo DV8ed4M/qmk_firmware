@@ -49,7 +49,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TRNS, S(KC_LBRC), S(KC_7),    S(KC_8),    S(KC_9), S(KC_RBRC),                KC_NO,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_TRNS,
         KC_TRNS, S(KC_SCLN), S(KC_4),    S(KC_5),    S(KC_6), S(KC_EQL),                 S(KC_9), KC_F5,   KC_F6,   KC_F7,   KC_8,    S(KC_0),
         KC_TRNS, S(KC_GRV),  S(KC_1),    S(KC_2),    S(KC_3), S(KC_BSLS),                KC_NO,   KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_NO,
-                                           TO(0),    S(KC_0), S(KC_MINS),           KC_ENT, KC_BSPC, TO(3)
+                                           TO(0),    S(KC_0), KC_TRNS,           KC_ENT, KC_BSPC, TO(3)
     ),
 
     // QWERTY
