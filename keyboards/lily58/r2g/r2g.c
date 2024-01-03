@@ -37,10 +37,10 @@ void oled_render_layer_state_r2g(void) {
             oled_write_ln_P(PSTR("Lower"), false);
             break;
         case 2:
-            oled_write_ln_P(PSTR("Raise"), false);
+            oled_write_ln_P(PSTR("Num/Nav"), false);
             break;
         case 3:
-            oled_write_ln_P(PSTR("Adjust"), false);
+            oled_write_ln_P(PSTR("Sym/Fun"), false);
             break;
         default:
             oled_write_ln_P(PSTR("Unknown"), false);
