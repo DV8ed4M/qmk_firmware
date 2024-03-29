@@ -153,7 +153,7 @@ bool oled_task_kb(void) {
     if (!oled_task_user()) { return false; }
     if (is_keyboard_master()) {
         oled_render_layer_state_r2g();
-        oled_render_keylog_r2g();
+        //oled_render_keylog_r2g();
     } else {
         oled_render_logo_r2g();
     }

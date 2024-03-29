@@ -1,7 +1,8 @@
 /*
+This is the c configuration file for the keymap
+
 Copyright 2012 Jun Wako <wakojun@gmail.com>
 Copyright 2015 Jack Humbert
-Copyright 2017 F_YUUCHI
 Copyright 2023 Elliot Powell
 
 This program is free software: you can redistribute it and/or modify
@@ -19,23 +20,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 #pragma once
-//#define SERIAL_USE_MULTI_TRANSACTION
 
-#ifdef RGB_MATRIX_ENABLE
-#   define RGB_MATRIX_LED_COUNT 74
-#   define RGB_DISABLE_WHEN_USB_SUSPENDED
-#   define RGB_MATRIX_LED_FLUSH_LIMIT 16
-#   define RGB_MATRIX_KEYPRESSES
-#   define RGB_MATRIX_MAXIMUM_BRIGHTNESS 120
-#   define RGB_MATRIX_KEYPRESSES
-#   define RGB_MATRIX_KEYRELEASES
-#   define RGB_MATRIX_FRAMEBUFFER_EFFECTS
-#   define RGBLIGHT_SLEEP
+/* Select hand configuration */
 
-#if defined(RGB_MATRIX_KEYPRESSES) || defined(RGB_MATRIX_KEYRELEASES)
-#   define ENABLE_RGB_MATRIX_SOLID_REACTIVE_SIMPLE
-#   define ENABLE_RGB_MATRIX_SOLID_REACTIVE
-#endif
+#define MASTER_LEFT
+// #define MASTER_RIGHT
+// #define EE_HANDS
 
-#   define SPLIT_TRANSPORT_MIRROR
-#endif
+#define TAPPING_FORCE_HOLD
+#define TAPPING_TERM 200

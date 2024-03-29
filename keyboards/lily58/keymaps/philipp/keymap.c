@@ -27,7 +27,6 @@
     #define LAY_ENT   LT(3,KC_ENT)
     #define LAY_BSPC  LT(2,KC_BSPC)
 
-
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     // Colemak-DH Layer
